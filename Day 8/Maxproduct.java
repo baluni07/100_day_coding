@@ -1,5 +1,5 @@
 public class Maxproduct {
-        public int maxProduct(int[] nums) {
+        public static int maxProduct(int[] nums) {
             int prefix=1;
             int suffix=1;
             int maxi=0;
@@ -14,7 +14,7 @@ public class Maxproduct {
              return maxi;
         }
     public static void main(String[] args) {
-        int nums[]= {1,-3,2,4,-7,3};
+        int nums[]= {1,-3,2,4,-1,3,-4};
         System.out.println(maxProduct(nums));
     }
     }
