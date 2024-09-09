@@ -22,7 +22,7 @@ class Occurrence
       for(int i=0;i<n;i++)
       {
          if(visited[i]==true)
-         continue
+         continue;
          int c=1;
          for(int j=i+1;j<n;j++)
       {
